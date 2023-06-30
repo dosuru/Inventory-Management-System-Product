@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: aquamarine;
+  background-position: center;
+ 
+}
+.product-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.container form{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+ 
+}
+.container label{
+  font-weight: bold;
+}
+  
+
+label{
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='text'],
+input[type='text']{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+
+}
+.error{
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* Style for the label */
+label {
+  font-weight: bold;
+}
+
+/* Style for the select element */
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.container button{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+
+
+
+ 
+
+
+
+
